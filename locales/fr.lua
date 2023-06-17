@@ -16,6 +16,13 @@ local Translations = {
         ["access_denied"] = "Vous n'êtes pas autorisé!",
         ["stress_gain"] = "Vous stressez!",
         ["stress_removed"] = "Vous-vous relaxez!"
+    },
+    info = {
+        ["toggle_engine"] = "Moteur ON/OFF",
+        ["open_menu"] = "Ouvrir Menu",
+        ["check_cash_balance"] = "Afficher Cash",
+        ["check_bank_balance"] = "Afficher Bank",
+        ["toggle_dev_mode"] = "ON/OFF developer Mode",
     }
 }
 
