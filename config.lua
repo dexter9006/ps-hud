@@ -4,11 +4,11 @@ Config.OpenMenu = 'I' -- https://docs.fivem.net/docs/game-references/input-mappe
 Config.StressChance = 0.1 -- Default: 10% -- Percentage Stress Chance When Shooting (0-1)
 Config.UseMPH = false -- If true speed math will be done as MPH, if false KPH will be used (YOU HAVE TO CHANGE CONTENT IN INDEX.JS TO DISPLAY THE CORRECT TEXT)
 Config.MinimumStress = 50 -- Minimum Stress Level For Screen Shaking
-Config.MinimumSpeedUnbuckled = 75 -- Going Over This Speed Will Cause Stress
-Config.MinimumSpeed = 155 -- Going Over This Speed Will Cause Stress
+Config.MinimumSpeedUnbuckled = 80 -- Going Over This Speed Will Cause Stress
+Config.MinimumSpeed = 160 -- Going Over This Speed Will Cause Stress
 Config.DisablePoliceStress = false -- Default: false, If true will disable stress for people with the police job
-Config.DisableEmsStress = true -- Vitto
-Config.FuelScript = 'ps-fuel' -- change to lj-fuel if you use lj-fuel or something else if you use any other LegcyFuel compatible script
+Config.DisableEmsStress = false -- Vitto
+Config.FuelScript = 'cdn-fuel' -- change to lj-fuel if you use lj-fuel or something else if you use any other LegcyFuel compatible script
 
 -- Admin only to change hud icons/shapes
 Config.AdminOnly = false
@@ -120,7 +120,8 @@ Config.EffectInterval = {
 }
 
 Config.FuelBlacklist = {
-	"surge",
+	/*
+    "surge",
 	"iwagen",
 	"voltic",
 	"voltic2",
@@ -138,5 +139,6 @@ Config.FuelBlacklist = {
 	"imorgon",
 	"dilettante",
 	"khamelion",
+    */
 	"wheelchair",
 }
