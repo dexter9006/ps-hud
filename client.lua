@@ -723,6 +723,8 @@ RegisterNetEvent('hud:client:EnhancementEffect', function(data)
     end
 end)
 
+-- Remove because qb-vehiclekeys already did it
+/*
 RegisterCommand('+engine', function()
     local vehicle = GetVehiclePedIsIn(PlayerPedId(), false)
     if vehicle == 0 or GetPedInVehicleSeat(vehicle, -1) ~= PlayerPedId() then return end
@@ -746,6 +748,7 @@ local function IsWhitelistedWeaponArmed(weapon)
     end
     return false
 end
+*/
 
 local prevPlayerStats = { nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil }
 
