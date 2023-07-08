@@ -737,6 +737,7 @@ RegisterCommand('+engine', function()
 end)
 
 RegisterKeyMapping('+engine', Lang:t('info.toggle_engine'), 'keyboard', 'G')
+*/
 
 local function IsWhitelistedWeaponArmed(weapon)
     if weapon then
@@ -748,7 +749,6 @@ local function IsWhitelistedWeaponArmed(weapon)
     end
     return false
 end
-*/
 
 local prevPlayerStats = { nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil }
 
