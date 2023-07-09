@@ -120,7 +120,7 @@ Config.EffectInterval = {
 }
 
 Config.FuelBlacklist = {
-	/*
+/*
     "surge",
 	"iwagen",
 	"voltic",
@@ -139,6 +139,6 @@ Config.FuelBlacklist = {
 	"imorgon",
 	"dilettante",
 	"khamelion",
-    */
-	"wheelchair",
+*/
+	"iak_wheelchair",
 }
